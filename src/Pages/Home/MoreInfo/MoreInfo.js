@@ -16,7 +16,7 @@ const MoreInfo = () => {
     useEffect(() => {
         const foundDetails = serviceDetails.find(service => service.key === serviceId);
         setSingleService(foundDetails);
-    }, [serviceDetails])
+    }, [serviceDetails, serviceId])
 
     return (
         <div className="container">
