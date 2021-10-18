@@ -1,0 +1,9 @@
+.single-service img{
+    width: 20%;
+    
+}
+.single-service {
+    border: 0.5px solid black;
+    
+    background-color: blanchedalmond;
+}
