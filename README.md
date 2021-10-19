@@ -1,18 +1,22 @@
 # ID
-A simple react based project for a Martial Arts Academy
+A simple react based project for a IDYLLIC Hospital
+
 
 # Project Description
-1.Learn About the trainers and variety of classes offered by Martial Arts Academy
+1.Get the best treat with affordable price
 
 2.Site created with simple React Js and React-Bootstrap
 
-3.Hosted on Netlify
+3.Email login and Google Login System
+
+4.Login to navigate more detailed routes
+
+3.Hosted on Firebase
 
 
 ## Live Site Link
 
-https://elated-bose-5539dc.netlify.app/
-
+https://my-hospital-cf58c.web.app/
 
 
 
