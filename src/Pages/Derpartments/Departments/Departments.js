@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Service from '../Service/Service';
+import Department from '../Department/Department';
 
-const Services = () => {
+const Departments = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
         fetch('services.json')
@@ -11,20 +11,20 @@ const Services = () => {
     return (
         <div className="container">
             <h1 className="text-center fw-bold my-5 py-5">Our <span className="text-info">
-                Services</span>
+                All Departments</span>
             </h1>
-            <div className="row">
+            <div className="row mb-5">
                 {
                     services.map(service =>
-                        <Service
+                        <Department
                             key={service.key}
                             service={service}
 
-                        ></Service>)
+                        ></Department>)
                 }
             </div>
         </div>
     );
 };
 
-export default Services;
+export default Departments;

@@ -1,18 +1,18 @@
 import React from 'react';
-import './Doctor.css'
-const Doctor = ({ doctor }) => {
-    const { docName, speciality, docImage } = doctor;
+
+const DoctorAll = ({ doctor }) => {
+    const { docName, speciality, docDescription, docImage } = doctor;
     return (
         <div className="col-lg-6 col-md-6  single-doctor p-5 m-5 mx-auto ">
             <img className="w-100" src={docImage} alt="" />
             <div className="row pt-3" >
-                <div className="col-6">
-
+                <div className="col-12">
+                    <p>{docDescription}</p>
                 </div>
-                <div className="col-6 text-end">
+                <div className="col-12 text-end">
 
-                    <p className="text-muted ">{speciality}</p>
                     <h3>{docName}</h3>
+                    <p className="text-muted ">{speciality}</p>
                 </div>
             </div>
 
@@ -21,4 +21,4 @@ const Doctor = ({ doctor }) => {
     );
 };
 
-export default Doctor;
+export default DoctorAll;

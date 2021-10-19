@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Pages/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -8,6 +8,10 @@ import Header from './Shared/Header/Header';
 import Login from './Pages/Login/Firebase/Login/Login';
 import Appointment from './Pages/Appointment/Appointment';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import DoctorsAll from './Pages/DoctorsAll/DoctorsAll/DoctorsAll';
+import Footer from './Shared/Footer/Footer';
+import Departments from './Pages/Derpartments/Departments/Departments';
 
 function App() {
   return (
@@ -27,21 +31,24 @@ function App() {
 
               </Home>
             </Route>
-            <Route path="/doctors">
-              <Home>
+            <PrivateRoute path="/doctors">
+              <DoctorsAll>
 
-              </Home>
-            </Route>
-            <Route path="/appointment">
+              </DoctorsAll>
+            </PrivateRoute>
+            <PrivateRoute path="/appointment">
               <Appointment>
 
               </Appointment>
-            </Route>
-            <Route path="/service/:serviceId">
+            </PrivateRoute>
+            <PrivateRoute path="/services">
+              <Departments></Departments>
+            </PrivateRoute>
+            <PrivateRoute path="/service/:serviceId">
               <MoreInfo>
 
               </MoreInfo>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login>
 
@@ -53,6 +60,7 @@ function App() {
               </NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>
