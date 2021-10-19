@@ -11,7 +11,7 @@ A simple react based project for a IDYLLIC Hospital
 
 4.Login to navigate more detailed routes
 
-3.Hosted on Firebase
+5.Hosted on Firebase
 
 
 ## Live Site Link
