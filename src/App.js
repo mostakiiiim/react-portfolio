@@ -7,50 +7,54 @@ import MoreInfo from './Pages/Home/MoreInfo/MoreInfo';
 import Header from './Shared/Header/Header';
 import Login from './Pages/Login/Firebase/Login/Login';
 import Appointment from './Pages/Appointment/Appointment';
+import AuthProvider from './contexts/AuthProvider';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home>
 
-            </Home>
-          </Route>
-          <Route path="/home">
-            <Home>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home>
 
-            </Home>
-          </Route>
-          <Route path="/doctors">
-            <Home>
+              </Home>
+            </Route>
+            <Route path="/home">
+              <Home>
 
-            </Home>
-          </Route>
-          <Route path="/appointment">
-            <Appointment>
+              </Home>
+            </Route>
+            <Route path="/doctors">
+              <Home>
 
-            </Appointment>
-          </Route>
-          <Route path="/service/:serviceId">
-            <MoreInfo>
+              </Home>
+            </Route>
+            <Route path="/appointment">
+              <Appointment>
 
-            </MoreInfo>
-          </Route>
-          <Route path="/login">
-            <Login>
+              </Appointment>
+            </Route>
+            <Route path="/service/:serviceId">
+              <MoreInfo>
 
-            </Login>
-          </Route>
-          <Route path="*">
-            <NotFound>
+              </MoreInfo>
+            </Route>
+            <Route path="/login">
+              <Login>
 
-            </NotFound>
-          </Route>
-        </Switch>
-      </Router>
+              </Login>
+            </Route>
+            <Route path="*">
+              <NotFound>
+
+              </NotFound>
+            </Route>
+          </Switch>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
