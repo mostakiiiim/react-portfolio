@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# ID
+A simple react based project for a Martial Arts Academy
+
+# Project Description
+1.Learn About the trainers and variety of classes offered by Martial Arts Academy
+
+2.Site created with simple React Js and React-Bootstrap
+
+3.Hosted on Netlify
+
+
+## Live Site Link
+
+https://elated-bose-5539dc.netlify.app/
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +86,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
