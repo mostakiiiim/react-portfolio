@@ -3,15 +3,15 @@ A simple react based project for a IDYLLIC Hospital
 
 
 # Project Description
-1.Get the best treatment with affordable price
+- Get the best treatment with affordable price
 
-2.Site created with simple React Js and React-Bootstrap
+- Site created with simple React Js and React-Bootstrap
 
-3.Email login and Google Login System
+- Email login and Google Login System
 
-4.Login to navigate more detailed routes
+- Login to navigate more detailed routes
 
-5.Hosted on Firebase
+- Hosted on Firebase
 
 
 ## Live Site Link

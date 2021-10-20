@@ -12,6 +12,7 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import DoctorsAll from './Pages/DoctorsAll/DoctorsAll/DoctorsAll';
 import Footer from './Shared/Footer/Footer';
 import Departments from './Pages/Derpartments/Departments/Departments';
+import BillPay from './Pages/BillPay/BillPay';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/services">
               <Departments></Departments>
+            </PrivateRoute>
+            <PrivateRoute path="/billing">
+              <BillPay></BillPay>
             </PrivateRoute>
             <PrivateRoute path="/service/:serviceId">
               <MoreInfo>

@@ -26,10 +26,10 @@ const Doctors = () => {
 
                         ></Doctor>)
                 }
+                <Link to={'/doctors'} className="visit fs-4 text-dark border border-secondary fw-bold p-3 mb-5 ">
+                    See All Doctors
+                </Link>
             </div>
-            <Link to={'/doctors'} className="visit fs-4 text-dark border border-secondary p-3">
-                See All Doctors
-            </Link>
         </div>
     );
 };

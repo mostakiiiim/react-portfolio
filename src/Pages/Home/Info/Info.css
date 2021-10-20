@@ -1,0 +1,8 @@
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    background-color: blanchedalmond;
+    font-weight: 600;
+}

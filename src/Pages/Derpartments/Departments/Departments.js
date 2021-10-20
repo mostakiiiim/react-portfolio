@@ -11,7 +11,7 @@ const Departments = () => {
     return (
         <div className="container">
             <h1 className="text-center fw-bold my-5 py-5">Our <span className="text-info">
-                All Departments</span>
+                All Services</span>
             </h1>
             <div className="row mb-5">
                 {
