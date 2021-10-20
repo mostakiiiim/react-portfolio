@@ -3,7 +3,7 @@ A simple react based project for a IDYLLIC Hospital
 
 
 # Project Description
-1.Get the best treat with affordable price
+1.Get the best treatment with affordable price
 
 2.Site created with simple React Js and React-Bootstrap
 
