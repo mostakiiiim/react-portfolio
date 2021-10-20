@@ -11,7 +11,7 @@ const useFirebase = () => {
     const [isLoading, setIsLoading] = useState(true);
     const auth = getAuth();
 
-    //    ---------------------------------------------------
+    // Google Sign In
 
     const signInUsingGoogle = () => {
         setIsLoading(true);
@@ -37,6 +37,7 @@ const useFirebase = () => {
         // eslint-disable-next-line 
         [])
 
+    //User Logout
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)

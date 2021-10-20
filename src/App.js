@@ -32,11 +32,12 @@ function App() {
 
               </Home>
             </Route>
-            <PrivateRoute path="/doctors">
+            <Route path="/doctors">
               <DoctorsAll>
 
               </DoctorsAll>
-            </PrivateRoute>
+            </Route>
+            {/* Protected Routes */}
             <PrivateRoute path="/appointment">
               <Appointment>
 
@@ -53,6 +54,8 @@ function App() {
 
               </MoreInfo>
             </PrivateRoute>
+            {/* Protected Routes */}
+
             <Route path="/login">
               <Login>
 

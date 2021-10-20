@@ -5,6 +5,7 @@ import useAuth from '../../../../hooks/useAuth';
 
 
 const Login = () => {
+    // Destructuring for google sign in
     const { signInUsingGoogle, setIsLoading } = useAuth();
 
     const [username, setUserName] = useState('');
@@ -17,7 +18,7 @@ const Login = () => {
     const redirect_url = location.state?.from || '/home';
     console.log('came from', location.state?.from);
     const auth = getAuth();
-
+    //Google log in Function
     const handleGoogleLogin = () => {
         signInUsingGoogle()
             .then(result => {
@@ -26,6 +27,7 @@ const Login = () => {
 
             .finally(() => setIsLoading(false));
     }
+    //Toggles between Login and register
     const toggleLogin = e => {
 
         setIsLogin((e.target.checked));
@@ -39,6 +41,7 @@ const Login = () => {
     const handlePasswordChange = e => {
         setPassword(e.target.value);
     }
+    //Email Registration/ Login
     const handleRegistration = e => {
         e.preventDefault();
 
@@ -57,6 +60,7 @@ const Login = () => {
 
         }
     }
+    //Login Function
     const processLogin = (email, password) => {
         signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
@@ -71,6 +75,7 @@ const Login = () => {
             })
 
     }
+    //Registration funtion
     const createNewUser = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
 
@@ -93,6 +98,7 @@ const Login = () => {
                 window.location.reload();
             })
     }
+    //Email Verification
     const verifyEmail = () => {
         sendEmailVerification(auth.currentUser)
             .then(result => {
@@ -154,6 +160,7 @@ const Login = () => {
                 </div>
             </div>
             <div><p>Or Sign Up Using</p></div>
+            {/* Google Sign up */}
             <button className="btn btn-dark mb-5 p-3" onClick={handleGoogleLogin}>
                 <i className="fab fa-google pe-3 fa-2x "></i> Sign In</button>
         </div>
