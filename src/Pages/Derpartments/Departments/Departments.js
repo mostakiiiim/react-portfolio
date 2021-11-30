@@ -4,7 +4,7 @@ import Department from '../Department/Department';
 const Departments = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('services.json')
+        fetch('https://stormy-mountain-39355.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
@@ -17,7 +17,7 @@ const Departments = () => {
                 {
                     services.map(service =>
                         <Department
-                            key={service.key}
+                            key={service._id}
                             service={service}
 
                         ></Department>)

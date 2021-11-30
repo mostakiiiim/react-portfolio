@@ -1,11 +1,11 @@
 import React from 'react';
 import './Banner.css'
-import docBanner from '../../../Images/doctor.png';
+
 const Banner = () => {
     return (
         <div >
 
-            <div className="banner-content">
+            <div className="banner-content ">
                 <div className="row">
                     <div className="col-md-6 col-12 d-flex justify-content-center align-items-center ">
                         <h1> Healthcare that is <br /> <span className="fw-bold">CONVENIENT</span> <br /> &

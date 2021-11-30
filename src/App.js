@@ -13,6 +13,9 @@ import DoctorsAll from './Pages/DoctorsAll/DoctorsAll/DoctorsAll';
 import Footer from './Shared/Footer/Footer';
 import Departments from './Pages/Derpartments/Departments/Departments';
 import BillPay from './Pages/BillPay/BillPay';
+import AddService from './Pages/AddServices/AddService';
+import Booking from './Pages/Booking/Booking';
+import ManageServices from './Pages/ManageServices/ManageServices';
 
 function App() {
   return (
@@ -36,6 +39,21 @@ function App() {
               <DoctorsAll>
 
               </DoctorsAll>
+            </Route>
+            <Route path="/addService">
+              <AddService>
+
+              </AddService>
+            </Route>
+            <Route path="/manageServices">
+              <ManageServices>
+
+              </ManageServices>
+            </Route>
+            <Route path="/booking/:serviceId">
+              <Booking>
+
+              </Booking>
             </Route>
             {/* Protected Routes */}
             <PrivateRoute path="/appointment">

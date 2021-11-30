@@ -1,74 +1,38 @@
 [
     {
-        "key": "1",
-        "docName": "Alex Carry",
-        "serviceName": "Anesthesiology",
-        "age": "35",
-        "speciality": "Anesthetist",
-        "docDescription": "Alex Carry is a Anesthesiologist specialist with 10 years of experience",
-        "serviceDescription": "Anesthesiology is the branch of medicine dedicated to pain relief for patients before, during, and after surgery.",
-        "serviceFees": "500",
-        "image": "https://i.ibb.co/Js96rWn/1.png",
-        "docImage": "https://image.freepik.com/free-photo/portrait-successful-mid-adult-doctor-with-crossed-arms_1262-12865.jpg"
+        "title": "Oribe Eyewear",
+        "description": "Oribe Eyewear shop where users can buy, update their order and delete orders and give review about the website. Admins can view all orders and add or delete products",
+        "image": "/images/1.png",
+        "tags": "['Mongo', 'Express', 'React', 'Node']",
+        "source": " https://github.com/mostakiiiim/niche-website-client",
+        "visit": " https://niche-website-cb3be.web.app/home",
+        "id": 0
     },
     {
-        "key": "2",
-        "docName": "Billy Moor",
-        "serviceName": "Dermatology",
-        "age": "35",
-        "speciality": "Dermatologist",
-        "docDescription": "Alex Carry is a Dermatology specialist with 10 years of experience",
-        "serviceDescription": "Dermatologists are physicians who treat adult and pediatric patients with disorders of the skin, hair, nails, and adjacent mucous membranes. ",
-        "serviceFees": "700",
-        "image": "https://i.ibb.co/TPD4GCy/2.png",
-        "docImage": "https://image.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg"
+        "title": "Malay Travels",
+        "description": "Travel agency website where users can book their favorite travel destination and admin can manage all orders and update them. Site created using ReactJs for Frontend and NodeJs for backend",
+        "image": "/images/2.png",
+        "tags": "['React', 'Mongo', 'Express', 'React', 'Node']",
+        "source": "https://my-tour-frontend.web.app/home",
+        "visit": "https://my-tour-frontend.web.app/home",
+        "id": 1
     },
     {
-        "key": "3",
-        "docName": "Marry Jean",
-        "serviceName": "Surgery",
-        "age": "35",
-        "speciality": "Surgeon",
-        "docDescription": "Marry is a specialist Surgeon with 8 years of experience",
-        "serviceDescription": " General surgeons provide a wide variety of life-saving surgeries, such as appendectomies and splenectomies. They receive broad training on human anatomy, physiology, intensive care, and wound healing.",
-        "serviceFees": "1000",
-        "image": "https://i.ibb.co/7NHc5Xk/3.png",
-        "docImage": "https://image.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg"
+        "title": "Idyllic Hospital",
+        "description": "Hospital landing page using React and Firebase",
+        "image": "/images/3.png",
+        "tags": " ['React', 'Firebase']",
+        "source": "https://github.com/mostakiiiim/my-hospital",
+        "visit": "https://my-hospital-cf58c.web.app/home",
+        "id": 2
     },
     {
-        "key": "4",
-        "docName": "Jayed Mahmud",
-        "serviceName": "Neurology",
-        "age": "35",
-        "speciality": "Neurologist",
-        "docDescription": "Jayed is a Neurologist with 5 years of experience",
-        "serviceDescription": "Neurologists are doctors who diagnose and treat problems with the brain and nervous system. They don't do surgery. Your doctor might recommend that you see one if they think you have an illness that needs expert care.",
-        "serviceFees": "1500",
-        "image": "https://i.ibb.co/284XKxS/4.png",
-        "docImage": "https://image.freepik.com/free-photo/healthcare-workers-medical-insurance-pandemic-covid-19-concept-handsome-smiling-doctor-white-coat-glasses-holding-medicine-hand-advice-use-medication-antibiotics_1258-58615.jpg"
-    },
-    {
-        "key": "5",
-        "docName": "Ronald Koeman",
-        "serviceName": "Urology",
-        "age": "35",
-        "speciality": "Urologist",
-        "docDescription": "Ronald is a Urologist with 10 years of experience",
-        "serviceDescription": "Urology is the health care segment that cares for the male and female urinary tract, including kidneys, ureters, bladder, and urethra.",
-        "serviceFees": "400",
-        "image": "https://i.ibb.co/xXx7yRr/5.png",
-        "docImage": "https://image.freepik.com/free-photo/happy-young-male-doctor-using-tablet-computer_1262-18254.jpg"
-    },
-    {
-        "key": "6",
-        "docName": "Neil Abraham",
-        "serviceName": "Cardiology",
-        "age": "35",
-        "speciality": "Cardiologist",
-        "docDescription": "Neil has over 20 years of experience as a Cardiologist",
-        "serviceDescription": "A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker..",
-        "serviceFees": "900",
-        "image": "https://i.ibb.co/4VKmZS1/6.png",
-        "docImage": "https://image.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1"
+        "title": "Martial Art Academy",
+        "description": "Landing page for martial academy using react",
+        "image": "/images/4.png",
+        "tags": "['React', 'Bootstrap']",
+        "source": "https://github.com/mostakiiiim/panda-commerece",
+        "visit": "https://app.netlify.com/sites/elated-bose-5539dc/overview",
+        "id": 3
     }
 ]
